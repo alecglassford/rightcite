@@ -1,14 +1,14 @@
 <html>
 
 <head>
-	<title> WinCite!</title>
+	<title> RightCite!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
 <body>
 
-<h1>wINCITE</h1>
+<h1>RightCite</h1>
 
 
 <div class = "section">
@@ -17,10 +17,17 @@
 
 <div class = "section">
 	<form action="#" method="post">
-		<textarea type="text" name="description" id="description"></textarea>
+		<textarea type="text" name="essay" id="essay"></textarea>
 		<input type="submit">
 	</form>
 </div>
+
+<?php
+	if (isset($_POST['essay']))
+	{
+		echo '<div class = "section">You pressed submit!</div>';
+	}
+?>
 
 
 </body>
