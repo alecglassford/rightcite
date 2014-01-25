@@ -1,0 +1,28 @@
+body
+{
+	background-color:#d0e4fe;
+}
+
+@font-face
+{
+font-family: titleFont;
+src: url(TightWriter.otf);
+}
+
+
+h1
+{
+	font-size: 5em;
+	font-family:titleFont;
+	text-align: center;
+}
+
+.section
+{
+	padding: 1em;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 2em 7em;
+	text-align: center;
+}
+
